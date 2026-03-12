@@ -138,10 +138,10 @@ The `.gitignore` file tells Git which files and folders should **not** be tracke
 
 ### Why Use .gitignore?
 
-- 🔒 **Security**: Exclude sensitive files (passwords, API keys, `.env`)
-- 📦 **Clean Repository**: Ignore auto-generated files (cache, logs)
-- 💾 **Reduce Size**: Exclude large files (datasets, media)
-- 🤝 **Easier Collaboration**: Prevent unnecessary merge conflicts
+-  **Security**: Exclude sensitive files (passwords, API keys, `.env`)
+-  **Clean Repository**: Ignore auto-generated files (cache, logs)
+-  **Reduce Size**: Exclude large files (datasets, media)
+-  **Easier Collaboration**: Prevent unnecessary merge conflicts
 
 ### Common .gitignore Patterns
 
@@ -234,7 +234,7 @@ git rebase main
 | Collaborating with others | **Merge** (safer) |
 | Personal cleanup before PR | **Rebase** |
 
-> ⚠️ **Warning**: Never rebase commits that have been pushed to a shared repository.
+>  **Warning**: Never rebase commits that have been pushed to a shared repository.
 
 ---
 
@@ -254,9 +254,9 @@ git reset --hard HEAD~1
 
 | Mode | HEAD | Staging | Working Dir |
 |------|------|---------|-------------|
-| `--soft` | ✅ Moves | ❌ Keeps | ❌ Keeps |
-| `--mixed` (default) | ✅ Moves | ✅ Resets | ❌ Keeps |
-| `--hard` | ✅ Moves | ✅ Resets | ✅ Resets |
+| `--soft` |  Moves |  Keeps |  Keeps |
+| `--mixed` (default) |  Moves |  Resets |  Keeps |
+| `--hard` |  Moves |  Resets |  Resets |
 
 **Use Cases:**
 - `--soft`: Fix a wrong commit message
@@ -341,4 +341,4 @@ git stash pop                # Restore saved work
 
 ---
 
-*Happy Coding! 🚀*
+*Happy Coding! *
